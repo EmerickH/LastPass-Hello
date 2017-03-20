@@ -1,7 +1,14 @@
+![Logo](Images/lastpass_hello.png)
 # LastPass-Hello
 Unofficial Windows Hello connect application for LastPass
 
 ## Caution: this application is totaly unofficial and the security is not guaranteed by its authors!
+
+## Screenshots
+
+Login with pin
+![Login with pin](Images/login.png)
+![Interface](Images/interface.png)
 
 ## How to install?
 ~~Actually, you can install it only by compiling it with Visual Studio 2017~~
@@ -35,6 +42,8 @@ You can click on Show to edit parameters and link with yout LastPass Account:
 Username = *LastPass:youremail@website.com*
 
 Token = *Google Authentificator key*
+
+![Parameters](Images/parameters.png)
 
 ## About
 This project has been created by Emerick Herve.
