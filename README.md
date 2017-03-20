@@ -18,9 +18,12 @@ Actually, you can install it only by compiling it with Visual Studio 2017
 When you open LastPass Hello, the application ask you to enter you PIN code or to authentificate with Windows Hello.
 If you're correctly authentificated, a Google Authentificator is shown.
 You can click on Show to edit parameters and link with yout LastPass Account:
-Username = LastPass:youremail@website.com
-Token = Google Authentificator key
+
+Username = *LastPass:youremail@website.com*
+
+Token = *Google Authentificator key*
 
 ## About
 This project has been created by Emerick Herve.
+
 It uses Google Authenticator TOTP C# : https://googleauthcsharp.codeplex.com/
