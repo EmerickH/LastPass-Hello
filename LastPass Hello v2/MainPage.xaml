@@ -9,8 +9,8 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <TextBlock x:Name="Texte" Margin="100,100,100,-0.9" TextWrapping="Wrap" Text="Code" VerticalAlignment="Top" FontSize="48" TextAlignment="Center"/>
-        <TextBox x:Name="Username" Margin="100,340,100,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" IsEnabled="False"/>
-        <TextBox x:Name="Token" Margin="100,430,100,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" IsEnabled="False"/>
+        <TextBox x:Name="Username" Margin="100,340,100,0" TextWrapping="Wrap" Text="LastPass:youremail@website.com" VerticalAlignment="Top" IsEnabled="False" PlaceholderText="Username"/>
+        <TextBox x:Name="Token" Margin="100,430,100,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" IsEnabled="False" PlaceholderText="Token"/>
         <Button x:Name="savebutton" Content="Save" HorizontalAlignment="Left" Margin="100,520,0,0" VerticalAlignment="Top" Click="savebutton_Click" IsEnabled="False"/>
         <ProgressBar x:Name="progressb" Height="10" Margin="100,200,100,0" VerticalAlignment="Top" Maximum="1"/>
         <CheckBox x:Name="ChPara" Content="Show" HorizontalAlignment="Left" Margin="100,300,-2,0" VerticalAlignment="Top" Click="ChPara_Click" IsEnabled="False"/>
