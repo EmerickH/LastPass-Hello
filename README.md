@@ -1,3 +1,4 @@
+![Logo](Logo/lastpass_hello.png)
 # LastPass-Hello
 Unofficial Windows Hello connect application for LastPass
 
