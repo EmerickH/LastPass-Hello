@@ -18,7 +18,7 @@
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <WindowsXamlEnableOverview>true</WindowsXamlEnableOverview>
     <PackageCertificateKeyFile>LastPass Hello v2_TemporaryKey.pfx</PackageCertificateKeyFile>
-    <PackageCertificateThumbprint>8F08427F7469DE48039F7A96DFCF3B4D927484DB</PackageCertificateThumbprint>
+    <PackageCertificateThumbprint>6C1C21A87221F501DB8477AB08AAC8EE0D90F40B</PackageCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <DebugSymbols>true</DebugSymbols>
