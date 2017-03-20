@@ -4,7 +4,20 @@ Unofficial Windows Hello connect application for LastPass
 ## Caution: this application is totaly unofficial and the security is not guaranteed by its authors!
 
 ## How to install?
-Actually, you can install it only by compiling it with Visual Studio 2017
+~~Actually, you can install it only by compiling it with Visual Studio 2017~~
+
+**An application package is now available!**
+
+To install:
+- Download LastPass Hello vx.x.x.zip
+- Unzip it
+- Right click on Add-AppDevPackage.ps1
+- Execute with PowerShell
+- Wait for install
+- Press Enter when asked and accept all certificates
+- LastPass Hello is now in your app list
+
+If you want to manualy compile LastPass Hello:
 - Download the solution and open it with Visual Studio
 - Open Package.appxmanifest in the solution explorer
 - Go to Packages tab
