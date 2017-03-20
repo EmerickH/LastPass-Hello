@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="LastPass_Hello_v2.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LastPass_Hello_v2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="Texte" Margin="100,100,100,-0.9" TextWrapping="Wrap" Text="Code" VerticalAlignment="Top" FontSize="48" TextAlignment="Center"/>
+        <TextBox x:Name="Username" Margin="100,340,100,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" IsEnabled="False"/>
+        <TextBox x:Name="Token" Margin="100,430,100,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" IsEnabled="False"/>
+        <Button x:Name="savebutton" Content="Save" HorizontalAlignment="Left" Margin="100,520,0,0" VerticalAlignment="Top" Click="savebutton_Click" IsEnabled="False"/>
+        <ProgressBar x:Name="progressb" Height="10" Margin="100,200,100,0" VerticalAlignment="Top" Maximum="1"/>
+        <CheckBox x:Name="ChPara" Content="Show" HorizontalAlignment="Left" Margin="100,300,-2,0" VerticalAlignment="Top" Click="ChPara_Click" IsEnabled="False"/>
+
+    </Grid>
+</Page>
