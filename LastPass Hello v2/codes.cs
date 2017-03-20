@@ -1,20 +1,20 @@
-﻿class code
+﻿class Code
  {
-    public code(string username, string token)
+    public Code(string username, string token)
     {
-        this.username = username;
-        this.token = token;
+        this.Username = username;
+        this.Token = token;
     }
 
     string _username = "";
-    public string username
+    public string Username
     {
         get { return _username; }
         set { _username = value; }
     }
 
     string _token = "";
-    public string token
+    public string Token
     {
         get { return _token; }
         set { _token = value; }
