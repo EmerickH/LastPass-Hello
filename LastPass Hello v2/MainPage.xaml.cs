@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using Windows.ApplicationModel.DataTransfer;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -61,6 +62,11 @@ namespace LastPass_Hello_v2
                     Username.Text = localSettings.Values["id"].ToString();
                     Texte.Text = auth.OneTimePassword.ToString();
                 }
+                else
+                {
+                    localSettings.Values["token"] = "";
+                    localSettings.Values["id"] = "";
+                }
                 App.started = true;
                 ChPara.IsEnabled = true;
             }
@@ -85,6 +91,7 @@ namespace LastPass_Hello_v2
                 Username.IsEnabled = true;
                 Token.IsEnabled = true;
                 savebutton.IsEnabled = true;
+                copyButton.IsEnabled = true;
                 Token.Text = localSettings.Values["token"].ToString();
             }
             else
@@ -92,8 +99,16 @@ namespace LastPass_Hello_v2
                 Username.IsEnabled = false;
                 Token.IsEnabled = false;
                 savebutton.IsEnabled = false;
+                copyButton.IsEnabled = true;
                 Token.Text = "";
             }
+        }
+
+        private void copyButton_Click(object sender, RoutedEventArgs e)
+        {
+            var dataPackage = new DataPackage();
+            dataPackage.SetText(auth.OneTimePassword.ToString());
+            Clipboard.SetContent(dataPackage);
         }
     }
 }
