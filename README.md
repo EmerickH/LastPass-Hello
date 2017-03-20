@@ -9,7 +9,7 @@ Unofficial Windows Hello connect application for LastPass
 **An application package is now available!**
 
 To install:
-- Download LastPass Hello vx.x.x.zip
+- Download the last package LastPass Hello vx.x.x.zip [here](https://github.com/EmerickH/LastPass-Hello/releases)
 - Unzip it
 - Right click on Add-AppDevPackage.ps1
 - Execute with PowerShell
